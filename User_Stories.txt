@@ -1,0 +1,25 @@
+User Story:
+
+- User can select a number from the dropdown that will correspond to the number of animals they will view.
+- User can click on the "get animals" button to generate a list of new randomly generated animals.
+- User can click on one of the animals generated to get a larger view of the picture as well as additional information on that animal.
+- From the enlarged view the user can click a button that will add the current animal to a favorites bar.
+- From the enlarged view the user can click a button that will take them back to the previously generated animal list.
+- The user can click on an animal from the favorites bar to generated an enlarged view of that particular animal.
+
+APIs Used:
+
+- Animal API address = https://zoo-animal-api.herokuapp.com/animals/rand
+    - This API will generate a random animal with a list of facts and a picture. We will use this API to get our animals to put on the page.
+- db.json file in our folder
+    - We will use this API to store the data for the animals that have been favorited.
+    - we will use this API to temporarily store the randomly generated animals so that when a user clicks to enlarge a photo the randomly generated animal information is not lost.
+
+Challenges:
+
+- generating the animals to the page when the user has clicked on the get animals button.
+- creating the enlarged image when a user clicks on an animal.
+- !!! RE-creating the animals on the page when the user clicks the back button from the enlarged section.
+- Saving an animal to the json file when favorited.
+- adding all of the favorites to the favorite seciton.
+- creating separate sections using CSS.
