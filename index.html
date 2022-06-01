@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Random Animal Generator</title>
+    <title>Spirit Animal Generator</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
     <div class="title">
-      <h1>Random Animal Generator</h1>
+      <h1>Spirit Animal Generator</h1>
     </div>
 
     <main>
@@ -16,26 +16,27 @@
 
         <div class="generatedAnimal">
             <div id="animal-button">
-                <button id="getAnimal" class="button">Get New Animal</button>
+                <button id="getAnimal" class="btn-12 custom-btn"><span>Click!</span><span>Get New Animal</span></button>
             </div>
             <br>
             <div id="animal-info">
-                <img src="src/Images/Question_Mark.png">
-                <div id="image-overlay">
-                    <h3 id="name">Animals's Name</h3>
-                    <p>
-                        Latin Name: <span id="latin-name">latin name</span><br>
-                        Latin Name: <span id="latin-name">latin name</span><br>
-                        Latin Name: <span id="latin-name">latin name</span><br>
-                        Latin Name: <span id="latin-name">latin name</span><br>
-                        Latin Name: <span id="latin-name">latin name</span><br>
-                        Latin Name: <span id="latin-name">latin name</span><br>
+                <img class="image__img" src="src/Images/Question_Mark.png" style="display: block; margin-left: auto; margin-right: auto;">
+                <div class="image__overlay">
+                    <div class="image__title">Animal's Name</div>
+                    <p class="image__description" style="color:white">
+                        Latin Name: <span id="latin_name"></span><br><br>
+                        Animal Type: <span id="animal_type"></span><br><br>
+                        Active Time: <span id="active_time"></span><br><br>
+                        Habitat: <span id="habitat"></span><br><br>
+                        Lifespan: <span id="lifespan"></span> years<br><br>
+                        Diet: <span id="diet"></span><br><br>
+                        Found In: <span id="geo_range"></span>
                     </p>
                 </div>
             </div>
             <br>
             <div>
-                <button id="add-favorite" class="button">Add Animal To Favorites</button>
+                <button id="add-favorite" class="btn-12 custom-btn"><span>Click!</span><span>Add To Favorites</span></button>
             </div>
 
         </div>
