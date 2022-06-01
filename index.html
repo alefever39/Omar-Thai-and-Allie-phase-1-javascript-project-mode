@@ -9,38 +9,38 @@
       <h1>Random Animal Generator</h1>
     </div>
 
-    <div id="savedAnimals">
-      
-    </div>
+    <main>
+        <div class="savedAnimals">
+            <p>testing</p>
+        </div>
 
-    <div class="generatedAnimal">
-      <div id="detailed-info" data="0">
-        <button id="getAnimal">Get New Animal</button>
-        <p id="name">Character's Name</p>
-        <h4>Total Votes: <span id="vote-count">Character's Votes</span></h4>
-        <form id="votes-form">
-          <input type="text" placeholder="Enter Votes" id="votes" name="votes" />
-          <input type="submit" value="Add Votes" />
-        </form>
-        <button id="reset-btn">Reset Votes</button>
-      </div>
+        <div class="generatedAnimal">
+            <div id="animal-button">
+                <button id="getAnimal" class="button">Get New Animal</button>
+            </div>
+            <br>
+            <div id="animal-info">
+                <img src="src/Images/Question_Mark.png">
+                <div id="image-overlay">
+                    <h3 id="name">Animals's Name</h3>
+                    <p>
+                        Latin Name: <span id="latin-name">latin name</span><br>
+                        Latin Name: <span id="latin-name">latin name</span><br>
+                        Latin Name: <span id="latin-name">latin name</span><br>
+                        Latin Name: <span id="latin-name">latin name</span><br>
+                        Latin Name: <span id="latin-name">latin name</span><br>
+                        Latin Name: <span id="latin-name">latin name</span><br>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div>
+                <button id="add-favorite" class="button">Add Animal To Favorites</button>
+            </div>
 
-      <!-- Bonus only! Uncomment the elements below when you are ready to work on the bonus deliverables -->
-      
-        <h4>Add New Character</h4>
-        <form id="character-form">
-          <div>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" />
-          </div>
-          <div>
-            <label for="image-url">Image URL</label>
-            <input type="text" id="image-url" name="image-url" />
-          </div>
-          <input type="submit" value="Add Character" />
-        </form> 
-     
-    </div>
+        </div>
+    </main>
+    
     <script src="src/index.js"></script>
   </body>
 </html>
