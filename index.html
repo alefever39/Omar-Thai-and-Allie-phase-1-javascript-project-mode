@@ -3,55 +3,31 @@
   <head>
     <title>Spirit Animal Generator</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
   </head>
   <body>
     <div class="title">
 
       <h1> Spirit Animal Generator</h1>
     </div>
-  <main>
+
+    <div id="horizontalLine"> <hr> </div>
+    
     <div id="savedAnimals">
-      <ul>
-        <li class = "firstSpirit">
-          
-        </li>
-        <li class = 'secondSpirit'>
-
-        </li>
-        <li class = 'thirdSpirit'>
-
-        </li>
-        <li class = 'fourthSpirit'>
-
-        </li>
-        <li class = 'fifthSpirit'>
-
-        </li>
-        <li class = 'sixthSpirit'>
-
-        </li>
-        <li class = 'seventhSpirit'>
-
-        </li>
-        <li class = 'eighthSpirit'>
-
-        </li>
-        <li class = 'ninthSpirit'>
-
-        </li>
-      </ul>
-
+        <h3>Favorite Spirts</h3>
+        <hr>
+        <ul id="savedAnimalList">
+            
+        </ul>
     </div>
-    <div id=" =horizontal line"> <hr> </div>
-
-
+    <main>
         <div class="generatedAnimal">
             <div id="animal-button">
                 <button id="getAnimal" class="btn-12 custom-btn"><span>Click!</span><span>Get New Animal</span></button>
             </div>
             <br>
             <div id="animal-info">
-                <img class="image__img" src="src/Images/Question_Mark.png" style="display: block; margin-left: auto; margin-right: auto;">
+                <img class="image__img" src="src/Images/Question_Mark.png" style="display: block">
                 <div class="image__overlay">
                     <div class="image__title">Animal's Name</div>
                     <p class="image__description" style="color:white">
@@ -69,9 +45,10 @@
             <div>
                 <button id="add-favorite" class="btn-12 custom-btn"><span>Click!</span><span>Add To Favorites</span></button>
             </div>
-
         </div>
     </main>
+    
+    
     
     <script src="src/index.js"></script>
   </body>
