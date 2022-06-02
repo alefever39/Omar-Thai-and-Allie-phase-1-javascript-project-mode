@@ -1,3 +1,100 @@
+
+h1 {
+    text-align: center;
+}
+#savedAnimals {
+    background-color: greenyellow;
+    border: 2px solid;
+    position: absolute;
+    top: 100px;
+    left: 8px;
+    height: 600px;
+    width: 320px;
+}
+
+ul {
+    text-align: center;
+}
+
+.firstSpirit {
+    position: relative;
+    right: 20px;
+    border: 2px solid;
+    height: 50px;
+    list-style: none;
+    margin: 10px;
+   
+}
+
+.secondSpirit {
+    position: relative;
+    right: 20px;
+    border: 2px solid;
+    height: 50px;
+    list-style: none;
+    margin: 10px;
+}
+.thirdSpirit {
+    position: relative;
+    right: 20px;
+    border: 2px solid;
+    height: 50px;
+    list-style: none;
+    margin: 10px;
+}
+.fourthSpirit {
+    position: relative;
+    right: 20px;
+    border: 2px solid;
+    height: 50px;
+    margin: 10px;
+    list-style: none;
+}
+
+.fifthSpirit {
+    position: relative;
+    right: 20px;
+    border: 2px solid;
+    height: 50px;
+    margin: 10px;
+    list-style: none;
+}
+
+.sixthSpirit {
+    position: relative;
+    right: 20px;
+    border: 2px solid;
+    height: 50px;
+    margin: 10px;
+    list-style: none;
+}
+
+.seventhSpirit {
+    position: relative;
+    right: 20px;
+    border: 2px solid;
+    height: 50px;
+    margin: 10px;
+    list-style: none;
+}
+
+.eighthSpirit {
+    position: relative;
+    right: 20px;
+    border: 2px solid;
+    height: 50px;
+    margin: 10px;
+    list-style: none;
+}
+
+.ninthSpirit {
+    position: relative;
+    right: 20px;
+    border: 2px solid;
+    height: 50px;
+    margin: 10px;
+    list-style: none;
+
 /* general layout styling */
 main {
     display: flex;
