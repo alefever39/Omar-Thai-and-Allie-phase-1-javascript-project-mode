@@ -9,6 +9,7 @@ body, html {
     display:flex;
     justify-content: center;
     align-items: center;
+    background-color: #DD4124;
 }
 
 h1 {
@@ -17,10 +18,31 @@ h1 {
     font-size: 40px;
     font-weight: 700;
     margin: 0px;
+   
 }
-
-hr {
-    margin: 0px;
+#escapeToClear {
+    position: absolute;
+    left: 65px;
+    top: 90px;
+    text-align: center;
+}
+hr  {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr  { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
 }
 
 main {
@@ -45,6 +67,10 @@ main {
 
 h3 {
     text-align: center;
+    border: solid 5px RGB(0, 155, 119);
+    border-radius: 50%;
+    font-size: 20px;
+    font-family: cursive;
 }
 
 ul {
@@ -55,17 +81,22 @@ ul {
 
 .spirit {
     position: relative;
+    background-color: RGB(68, 184, 172);
     display: flex;
     right: 20px;
     border: 2px solid;
     height: 50px;
     list-style: none;
     margin: 10px;
+    font-family: cursive;
 }
 
 .listImage {
-    height: 60px;
-    width: 60px;
+    position: relative;
+    left: 3px;
+    top: 5px;
+    height: 40px;
+    width: 100px;
 }
 
 
