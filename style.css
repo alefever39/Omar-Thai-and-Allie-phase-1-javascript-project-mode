@@ -1,117 +1,81 @@
+/* general layout styling */
+body, html {
+    background-color: #009B77;
+    margin: 0px;
+    padding: 0px;
+}
+
+.title {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
 h1 {
     text-align: center;
+    font-family: 'Kalam';
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px;
 }
+
+hr {
+    margin: 0px;
+}
+
+main {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Saved Animals section */
 #savedAnimals {
-    background-color: greenyellow;
+    background-color: #DD4124;
     border: 2px solid;
     position: absolute;
-    top: 100px;
-    left: 8px;
+    top: 150px;
+    left: 80px;
     height: 600px;
     width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    text-align: center;
 }
 
 ul {
     text-align: center;
 }
 
-.firstSpirit {
+.spirit {
     position: relative;
-    right: 20px;
-    border: 2px solid;
-    height: 50px;
-    list-style: none;
-    margin: 10px;
-   
-}
-
-.secondSpirit {
-    position: relative;
-    right: 20px;
-    border: 2px solid;
-    height: 50px;
-    list-style: none;
-    margin: 10px;
-}
-.thirdSpirit {
-    position: relative;
-    right: 20px;
-    border: 2px solid;
-    height: 50px;
-    list-style: none;
-    margin: 10px;
-}
-.fourthSpirit {
-    position: relative;
-    right: 20px;
-    border: 2px solid;
-    height: 50px;
-    margin: 10px;
-    list-style: none;
-}
-
-.fifthSpirit {
-    position: relative;
-    right: 20px;
-    border: 2px solid;
-    height: 50px;
-    margin: 10px;
-    list-style: none;
-}
-
-.sixthSpirit {
-    position: relative;
-    right: 20px;
-    border: 2px solid;
-    height: 50px;
-    margin: 10px;
-    list-style: none;
-}
-
-.seventhSpirit {
-    position: relative;
-    right: 20px;
-    border: 2px solid;
-    height: 50px;
-    margin: 10px;
-    list-style: none;
-}
-
-.eighthSpirit {
-    position: relative;
-    right: 20px;
-    border: 2px solid;
-    height: 50px;
-    margin: 10px;
-    list-style: none;
-}
-
-.ninthSpirit {
-    position: relative;
-    right: 20px;
-    border: 2px solid;
-    height: 50px;
-    margin: 10px;
-    list-style: none;
-
-/* general layout styling */
-main {
     display: flex;
-    column-count: 2;
+    right: 20px;
+    border: 2px solid;
+    height: 50px;
+    list-style: none;
+    margin: 10px;
 }
 
+.listImage {
+    height: 60px;
+    width: 60px;
+}
 
 
 /* generated animal section styling */
 .generatedAnimal {
     height: 100vh;
-    width: 80vw;
+    width: 60vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-color:rgba(29, 113, 158, 0.6);
+    margin-right: 0px;
+    /* background-color:rgba(29, 113, 158, 0.6); */
 }
 
 #animal-info {
@@ -131,14 +95,16 @@ border-radius: 100%;
 .image__img {
 display: absolute;
 min-width: 70%;
+max-width: 90%;
 height: 100%;
 z-index: -1;
+margin: 0px;
 }
 .image__overlay {
 position: absolute;
 top: 0;
-left: 0;
-width: 100%;
+left: auto;
+width: 90%;
 height: 100%;
 background: rgba(0, 0, 0, 0.6);
 color: #fff;
@@ -147,8 +113,9 @@ display: flex;
 flex-direction: column;
 align-items:center;
 justify-content: center;
+text-align: center;
 opacity: 0;
-transition: opacity 0.25s;    
+transition: opacity 0.25s;
 }
 
 .image__overlay > * {
