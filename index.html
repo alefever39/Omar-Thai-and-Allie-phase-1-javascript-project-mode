@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Random Animal Generator</title>
+    <title>Spirit Animal Generator</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
     <div class="title">
-      <h1>Random Animal Generator</h1>
+      <h1>Spirit Animal Generator</h1>
     </div>
-    <div></div>
-    <div id="savedAnimals">
-      
-    </div>
-    <div id=" =horizontal line"> <hr> </div>
 
-    <div class="generatedAnimal">
-      <div id="detailed-info" data="0">
-        <button id="getAnimal">Get New Animal</button>
-        <p id="name">Character's Name</p>
-        <h4>Total Votes: <span id="vote-count">Character's Votes</span></h4>
-        <form id="votes-form">
-          <input type="text" placeholder="Enter Votes" id="votes" name="votes" />
-          <input type="submit" value="Add Votes" />
-        </form>
-        <button id="reset-btn">Reset Votes</button>
-      </div>
+    <main>
+        <div class="savedAnimals">
+            <p>testing</p>
+        </div>
 
-      <!-- Bonus only! Uncomment the elements below when you are ready to work on the bonus deliverables -->
-      
-        <h4>Add New Character</h4>
-        <form id="character-form">
-          <div>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" />
-          </div>
-          <div>
-            <label for="image-url">Image URL</label>
-            <input type="text" id="image-url" name="image-url" />
-          </div>
-          <input type="submit" value="Add Character" />
-        </form> 
-     
-    </div>
+
+        <div class="generatedAnimal">
+            <div id="animal-button">
+                <button id="getAnimal" class="btn-12 custom-btn"><span>Click!</span><span>Get New Animal</span></button>
+            </div>
+            <br>
+            <div id="animal-info">
+                <img class="image__img" src="src/Images/Question_Mark.png" style="display: block; margin-left: auto; margin-right: auto;">
+                <div class="image__overlay">
+                    <div class="image__title">Animal's Name</div>
+                    <p class="image__description" style="color:white">
+                        Latin Name: <span id="latin_name"></span><br><br>
+                        Animal Type: <span id="animal_type"></span><br><br>
+                        Active Time: <span id="active_time"></span><br><br>
+                        Habitat: <span id="habitat"></span><br><br>
+                        Lifespan: <span id="lifespan"></span> years<br><br>
+                        Diet: <span id="diet"></span><br><br>
+                        Found In: <span id="geo_range"></span>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div>
+                <button id="add-favorite" class="btn-12 custom-btn"><span>Click!</span><span>Add To Favorites</span></button>
+            </div>
+
+        </div>
+    </main>
+    
     <script src="src/index.js"></script>
   </body>
 </html>
