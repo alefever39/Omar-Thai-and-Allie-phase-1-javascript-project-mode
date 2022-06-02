@@ -59,6 +59,90 @@
       "geo_range": "Southern Madagascar",
       "image_link": "https://upload.wikimedia.org/wikipedia/commons/9/92/Radiated_tortoise_%28Astrochelys_radiata%29_Tsimanampetsotsa.jpg",
       "id": 5
+    },
+    {
+      "name": "Blue Tree Monitor",
+      "latin_name": "Varanus macraei",
+      "animal_type": "Reptile",
+      "active_time": "Diurnal",
+      "lifespan": "10",
+      "habitat": "Tropical forest",
+      "diet": "Small animals, such as insects and frogs, and eggs",
+      "geo_range": "Batanta Island (Indonesia)",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Varanidae_-_Varanus_macraei.JPG",
+      "id": 6
+    },
+    {
+      "name": "Eastern Diamondback Rattlesnake",
+      "latin_name": "Crotalus adamanteus",
+      "animal_type": "Reptile",
+      "active_time": "Diurnal",
+      "lifespan": "20",
+      "habitat": "Woodland, field, wetland, and scrubland",
+      "diet": "Rabbits, squirrels and other rodents, and birds",
+      "geo_range": "Southeastern United States",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Crotalus_adamanteus_25.jpg",
+      "id": 7
+    },
+    {
+      "name": "Titicaca Water Frog",
+      "latin_name": "Telmatobius culeus",
+      "animal_type": "Amphibian",
+      "active_time": "Nocturnal",
+      "lifespan": "20",
+      "habitat": "Freshwater lakes and welands",
+      "diet": "Crustaceans, snails, and other small animals",
+      "geo_range": "Lake Titicaca Bolivia and Peru",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Vodnice_posv%C3%A1tn%C3%A1_zoo_praha_1.jpg",
+      "id": 8
+    },
+    {
+      "name": "Longnose Gar",
+      "latin_name": "Lepisosteus osseus",
+      "animal_type": "Fish",
+      "active_time": "Nocturnal",
+      "lifespan": "20",
+      "habitat": "Rivers, lakes, reserviors and estuaries",
+      "diet": "Small fish",
+      "geo_range": "North America east of the Mississippi River",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Longnose_gar%2C_Boston_Aquarium.JPG",
+      "id": 9
+    },
+    {
+      "name": "Serval",
+      "latin_name": "Leptailurus serval",
+      "animal_type": "Mammal",
+      "active_time": "Nocturnal",
+      "lifespan": "13",
+      "habitat": "Savannah",
+      "diet": "Game birds, rodents, small ungulates",
+      "geo_range": "Africa",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/7/70/Leptailurus_serval_-Serengeti_National_Park%2C_Tanzania-8.jpg",
+      "id": 10
+    },
+    {
+      "name": "Animal's Name",
+      "latin_name": "",
+      "animal_type": "",
+      "active_time": "",
+      "lifespan": "",
+      "habitat": "",
+      "diet": "",
+      "geo_range": "",
+      "image_link": "file:///Users/omarsaeed/Development/code/Omar-Thai-and-Allie-phase-1-javascript-project-mode/src/Images/Question_Mark.png",
+      "id": 11
+    },
+    {
+      "name": "Animal's Name",
+      "latin_name": "",
+      "animal_type": "",
+      "active_time": "",
+      "lifespan": "",
+      "habitat": "",
+      "diet": "",
+      "geo_range": "",
+      "image_link": "file:///Users/omarsaeed/Development/code/Omar-Thai-and-Allie-phase-1-javascript-project-mode/src/Images/Question_Mark.png",
+      "id": 12
     }
   ]
 }
