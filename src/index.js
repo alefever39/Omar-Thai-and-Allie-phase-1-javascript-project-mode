@@ -22,7 +22,6 @@ function buildAnimalCard(data) {
     const lifespan = document.querySelector('#lifespan');
     const diet = document.querySelector('#diet');
     const geoRange = document.querySelector('#geo_range');
-    // const favBtn = document.querySelector('#add-favorite');
 
     img.src = data['image_link'];
     name.textContent = data.name;
@@ -33,12 +32,16 @@ function buildAnimalCard(data) {
     lifespan.textContent = data['lifespan'];
     diet.textContent = data['diet'];
     geoRange.textContent = data['geo_range'];
-
-    // favBtn.addEventListener('click', addSpiritToDatabase(data));
 }
 
 
 
+
+function addFavoritesFromDatabase() {
+    fetch('http://localhost:3000/favoriteSpirits')
+    .then(res => res.json())
+    .then(data => data.forEach(createFavorites));
+}
 
 function favoriteSpiritButton() {
     const favBtn = document.querySelector('#add-favorite');
@@ -79,14 +82,6 @@ function addSpiritToDatabase() {
     .then(data => createFavorites(data));
 }
 
-
-
-function addFavoritesFromDatabase() {
-    fetch('http://localhost:3000/favoriteSpirits')
-    .then(res => res.json())
-    .then(data => data.forEach(createFavorites));
-}
-
 function createFavorites(spirit) {
     const spiritList = document.querySelector('#savedAnimalList');
     const li = document.createElement('li');
@@ -111,8 +106,67 @@ function getFavoriteSpirit(id) {
     .then(data => buildAnimalCard(data));
 }
 
+
+
+
+
+function removeFavoritesEvent() {
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') {
+            fetch('http://localhost:3000/favoriteSpirits')
+            .then(res => res.json())
+            .then(data => data.forEach(clearFavoritesDatabase))
+        }
+    })
+}
+
+function clearFavoritesDatabase(favorite) {
+    fetch(`http://localhost:3000/favoriteSpirits/${favorite.id}`, {
+        method: 'DELETE',
+        headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+        }
+    })
+    .then(clearFavoritesBar)
+}
+
+function clearFavoritesBar() {
+    const ul = document.querySelector('#savedAnimalList');
+    ul.textContent = ''
+}
+
+
+
+
+
+function imageOverlayHover() {
+    const overlay = document.querySelector('.image__overlay');
+    const overlayChildren = overlay.children
+    overlay.addEventListener('mouseover', () => revealOverlay(overlay, overlayChildren));
+    overlay.addEventListener('mouseout', () => hideOverlay(overlay, overlayChildren));
+}
+
+function revealOverlay(overlay, overlayChildren) {
+    overlay.style.opacity = '1';
+    overlayChildren[0].style.transform = 'translate(0)';
+    overlayChildren[1].style.transform = 'translate(0)';
+}
+
+function hideOverlay(overlay, overlayChildren) {
+    overlay.style.opacity = '0';
+    overlayChildren[0].style.transform = 'translate(20px)';
+    overlayChildren[1].style.transform = 'translate(20px)';
+}
+
+
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
     getNewAnimalButton();
     favoriteSpiritButton();
     addFavoritesFromDatabase();
+    imageOverlayHover();
+    removeFavoritesEvent();
 })
