@@ -45,8 +45,16 @@ function addFavoritesFromDatabase() {
 
 function favoriteSpiritButton() {
     const favBtn = document.querySelector('#add-favorite');
-    console.log(favBtn)
-    favBtn.addEventListener('click', addSpiritToDatabase);
+    favBtn.addEventListener('click', () => {
+        fetch('http://localhost:3000/favoriteSpirits')
+        .then(res => res.json())
+        .then(data => {
+            const name = document.querySelector('.image__title').textContent;
+            if (data.find(Animal => Animal.name === name) === undefined) {
+                addSpiritToDatabase();
+            }
+        });
+    });
 }
 
 function addSpiritToDatabase() {

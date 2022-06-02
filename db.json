@@ -1,40 +1,64 @@
 {
   "favoriteSpirits": [
     {
-      "name": "Sumatran Orangutan",
-      "latin_name": "Pongo pygmaeus abelii",
+      "name": "Magellanic Penguin",
+      "latin_name": "Spheniscus magellanicus",
+      "animal_type": "Bird",
+      "active_time": "Diurnal",
+      "lifespan": "20",
+      "habitat": "Ocean and coastal shores",
+      "diet": "Small fish and squid",
+      "geo_range": "Pacific and Atlantic Oceans and coasts of southern South America",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Magellanic_penguin%2C_Valdes_Peninsula%2C_e.jpg",
+      "id": 3
+    },
+    {
+      "name": "Clouded Leopard",
+      "latin_name": "Neofelis nebulosa",
+      "animal_type": "Mammal",
+      "active_time": "Nocturnal",
+      "lifespan": "13",
+      "habitat": "Forest, grassland, and wetland",
+      "diet": "Primates, deer, wild boar, porcupines, small mammals, and birds",
+      "geo_range": "Southeastern Asia",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Clouded_Leopard_Neofelis_nebulosa_by_Dr_Raju_Kasambe_DSC_7497_%2828%29.JPG",
+      "id": 14
+    },
+    {
+      "name": "Cape Porcupine",
+      "latin_name": "Hystrix africaeaustralis",
+      "animal_type": "Mammal",
+      "active_time": "Nocturnal",
+      "lifespan": "15",
+      "habitat": "Savannah, scrubland and forest",
+      "diet": "Fruit, roots, tubers and bulbs",
+      "geo_range": "Central and Southern Africa",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Hystrix_africaeaustralis_Blijdorp_Rotterdam.JPG",
+      "id": 15
+    },
+    {
+      "name": "Rainbow Boa",
+      "latin_name": "Epicrates cenchria",
+      "animal_type": "Reptile",
+      "active_time": "Nocturnal",
+      "lifespan": "20",
+      "habitat": "Woodland and savanna",
+      "diet": "Small mammals and birds",
+      "geo_range": "South America",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/a4/EpicratesCenchriaCenchria1.jpg",
+      "id": 16
+    },
+    {
+      "name": "Mueller's Gibbon",
+      "latin_name": "Hylobates muelleri",
       "animal_type": "Mammal",
       "active_time": "Diurnal",
-      "lifespan": "28",
+      "lifespan": "40",
       "habitat": "Tropical rainforest",
-      "diet": "Fruit, shoots, bark, insects, vines, bird eggs, and small vertebrates",
-      "geo_range": "Northern Sumatra",
-      "image_link": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Sumatra-Orang-Utan_im_Pongoland.jpg",
-      "id": 1
-    },
-    {
-      "name": "Scarlet Ibis",
-      "latin_name": "Eudocimus ruber",
-      "animal_type": "Bird",
-      "active_time": "Diurnal",
-      "lifespan": "12",
-      "habitat": "Coastal wetlands",
-      "diet": "Small crayfish, snails and amphibians",
-      "geo_range": "Northern South America",
-      "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Scarlet_Ibis_SMTC.jpg",
-      "id": 2
-    },
-    {
-      "name": "Red-crowned crane",
-      "latin_name": "Grus japonensis",
-      "animal_type": "Bird",
-      "active_time": "Diurnal",
-      "lifespan": "25",
-      "habitat": "Wetlands",
-      "diet": "Aquatic animals and plants",
-      "geo_range": "East Asia ",
-      "image_link": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Grus_japonensis_-Hokkaido%2C_Japan_-several-8_%281%29.jpg",
-      "id": 3
+      "diet": "Primarily fruit; some leaves, flowers, and invertebrates",
+      "geo_range": "Borneo, Southeast Asia",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/a0/MuellersGibbon.jpg",
+      "id": 17
     },
     {
       "name": "Trumpeter Swan",
@@ -46,103 +70,31 @@
       "diet": "Aquatic vegetation",
       "geo_range": "Northwestern and central North America",
       "image_link": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tumpeter1byWoodigo.JPG",
-      "id": 4
+      "id": 18
     },
     {
-      "name": "Radiated Tortoise",
-      "latin_name": "Geochelone radiate",
-      "animal_type": "Reptile",
+      "name": "Boat-billed Heron",
+      "latin_name": "Cochlearius cochlearius",
+      "animal_type": "Bird",
       "active_time": "Diurnal",
-      "lifespan": "50",
-      "habitat": "Dry woodlands",
-      "diet": "Grass, fruit, and cactus",
-      "geo_range": "Southern Madagascar",
-      "image_link": "https://upload.wikimedia.org/wikipedia/commons/9/92/Radiated_tortoise_%28Astrochelys_radiata%29_Tsimanampetsotsa.jpg",
-      "id": 5
+      "lifespan": "9",
+      "habitat": "Wetlands",
+      "diet": "Fish, frogs, shrimp, and insects",
+      "geo_range": "Mexico, Central and South America",
+      "image_link": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cochlearius_cochleariaPCCA20071227-8443B.jpg",
+      "id": 19
     },
     {
-      "name": "Blue Tree Monitor",
-      "latin_name": "Varanus macraei",
-      "animal_type": "Reptile",
+      "name": "Blue-Crowned Motmot",
+      "latin_name": "Momotus momota",
+      "animal_type": "Bird",
       "active_time": "Diurnal",
-      "lifespan": "10",
-      "habitat": "Tropical forest",
-      "diet": "Small animals, such as insects and frogs, and eggs",
-      "geo_range": "Batanta Island (Indonesia)",
-      "image_link": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Varanidae_-_Varanus_macraei.JPG",
-      "id": 6
-    },
-    {
-      "name": "Eastern Diamondback Rattlesnake",
-      "latin_name": "Crotalus adamanteus",
-      "animal_type": "Reptile",
-      "active_time": "Diurnal",
-      "lifespan": "20",
-      "habitat": "Woodland, field, wetland, and scrubland",
-      "diet": "Rabbits, squirrels and other rodents, and birds",
-      "geo_range": "Southeastern United States",
-      "image_link": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Crotalus_adamanteus_25.jpg",
-      "id": 7
-    },
-    {
-      "name": "Titicaca Water Frog",
-      "latin_name": "Telmatobius culeus",
-      "animal_type": "Amphibian",
-      "active_time": "Nocturnal",
-      "lifespan": "20",
-      "habitat": "Freshwater lakes and welands",
-      "diet": "Crustaceans, snails, and other small animals",
-      "geo_range": "Lake Titicaca Bolivia and Peru",
-      "image_link": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Vodnice_posv%C3%A1tn%C3%A1_zoo_praha_1.jpg",
-      "id": 8
-    },
-    {
-      "name": "Longnose Gar",
-      "latin_name": "Lepisosteus osseus",
-      "animal_type": "Fish",
-      "active_time": "Nocturnal",
-      "lifespan": "20",
-      "habitat": "Rivers, lakes, reserviors and estuaries",
-      "diet": "Small fish",
-      "geo_range": "North America east of the Mississippi River",
-      "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Longnose_gar%2C_Boston_Aquarium.JPG",
-      "id": 9
-    },
-    {
-      "name": "Serval",
-      "latin_name": "Leptailurus serval",
-      "animal_type": "Mammal",
-      "active_time": "Nocturnal",
-      "lifespan": "13",
-      "habitat": "Savannah",
-      "diet": "Game birds, rodents, small ungulates",
-      "geo_range": "Africa",
-      "image_link": "https://upload.wikimedia.org/wikipedia/commons/7/70/Leptailurus_serval_-Serengeti_National_Park%2C_Tanzania-8.jpg",
-      "id": 10
-    },
-    {
-      "name": "Animal's Name",
-      "latin_name": "",
-      "animal_type": "",
-      "active_time": "",
-      "lifespan": "",
-      "habitat": "",
-      "diet": "",
-      "geo_range": "",
-      "image_link": "file:///Users/omarsaeed/Development/code/Omar-Thai-and-Allie-phase-1-javascript-project-mode/src/Images/Question_Mark.png",
-      "id": 11
-    },
-    {
-      "name": "Animal's Name",
-      "latin_name": "",
-      "animal_type": "",
-      "active_time": "",
-      "lifespan": "",
-      "habitat": "",
-      "diet": "",
-      "geo_range": "",
-      "image_link": "file:///Users/omarsaeed/Development/code/Omar-Thai-and-Allie-phase-1-javascript-project-mode/src/Images/Question_Mark.png",
-      "id": 12
+      "lifespan": "22",
+      "habitat": "Rainforest",
+      "diet": "Berries, fruits, insects and other small animals",
+      "geo_range": "Northern South America",
+      "image_link": "https://images.fineartamerica.com/images-medium-large-5/1-trinidad-motmot-blue-crowned-motmot-ken-archer.jpg",
+      "id": 20
     }
   ]
 }
